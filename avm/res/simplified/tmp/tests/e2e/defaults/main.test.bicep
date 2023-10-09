@@ -39,7 +39,7 @@ module testDeployment '../../../main.bicep' = {
     name: '${namePrefix}${serviceShort}001'
     location: location
     // Workaround for PSRule
-    // roleAssignments: []
+    roleAssignments: null
     // minimumTlsVersion: null
     // networkAcls: null
   }
